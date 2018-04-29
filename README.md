@@ -12,9 +12,17 @@ Execute Brew with Bundle
 
 `brew bundle`
 
-Install Python Latest
+Get Available Versions
 
+`pyenv install --list`
 
+Install Python
+
+For 3.5
+`pyenv install 3.6.5`
+
+For 2.7
+`pyenv install 2.7.14`
 
 Install Powerline Fonts
 
