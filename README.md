@@ -50,6 +50,14 @@ rbenv shell 2.5.1 (or latest)
 * 2.5.1 (set by RBENV_VERSION environment variable)
 ```
 
+Check rbenv
+
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+
+Install Gems
+
+`gem install bundler`
+
 Install ChefDK
 
 [https://downloads.chef.io/chefdk](https://downloads.chef.io/chefdk)
