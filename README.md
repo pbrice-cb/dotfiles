@@ -1,10 +1,10 @@
 # dotfiles
 
-Clone repo into root of local profile.
+### Clone repo into root of local profile.
 
 `~/git clone git@github.com:paulbrice/dotfiles.git`
 
-Install Brew
+### Install Brew
 
 [https://brew.sh](https://brew.sh/)
 
@@ -12,19 +12,28 @@ Execute Brew with Bundle
 
 `brew bundle`
 
+## Setup Oh-My-Zsh
+
+[https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+```
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+chsh -s /usr/local/bin/zsh
+```
+
+### Setup PyEnv
+
 Get Available Versions
 
 `pyenv install --list`
 
-Install Python
+### Install Other Python Version
 
-For 3.5
-`pyenv install 3.6.5`
+For python 2.7.15
 
-For 2.7
-`pyenv install 2.7.14`
+`pyenv install 2.7.15`
 
-Install Powerline Fonts
+### Install Powerline Fonts
 
 [https://github.com/powerline/fonts](https://github.com/powerline/fonts)
 
@@ -32,11 +41,7 @@ Change Font to iTerm2 profile
 
 - 14 Source Code Pro for Powerline
 
-Install Powerline-Shell
-
-`pip3 install powerline-shell`
-
-Install Ruby / Set Shell to Latest
+### Install Ruby / Set Shell to Latest
 
 Check: [https://www.ruby-lang.org/en/documentation/installation/](https://www.ruby-lang.org/en/documentation/installation/)
 
@@ -52,12 +57,33 @@ rbenv shell 2.5.1 (or latest)
 
 Check rbenv
 
+```
 curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+```
 
-Install Gems
+### Setup Diff-So-Fancy
+
+[https://github.com/so-fancy/diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
+
+```
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+git config --global color.diff-highlight.oldNormal    "red bold"
+git config --global color.diff-highlight.oldHighlight "red bold 52"
+git config --global color.diff-highlight.newNormal    "green bold"
+git config --global color.diff-highlight.newHighlight "green bold 22"
+
+git config --global color.diff.meta       "yellow"
+git config --global color.diff.frag       "magenta bold"
+git config --global color.diff.commit     "yellow bold"
+git config --global color.diff.old        "red bold"
+git config --global color.diff.new        "green bold"
+git config --global color.diff.whitespace "red reverse"
+```
+
+### Install Gems
 
 `gem install bundler`
 
-Install ChefDK
+### Install ChefDK
 
 [https://downloads.chef.io/chefdk](https://downloads.chef.io/chefdk)
