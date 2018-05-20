@@ -21,6 +21,12 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 chsh -s /usr/local/bin/zsh
 ```
 
+### Install Solorized for iTerm2
+
+[http://ethanschoonover.com/solarized](http://ethanschoonover.com/solarized)
+
+[https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized](https://github.com/altercation/solarized/tree/master/iterm2-colors-solarized)
+
 ### Setup PyEnv
 
 Get Available Versions
