@@ -1,7 +1,6 @@
 tap "homebrew/core"
 tap "homebrew/bundle"
 tap "caskroom/cask"
-cask "atom"
 brew "awscli"
 brew "bash"
 brew "bash-completion"
