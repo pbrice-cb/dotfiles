@@ -100,4 +100,15 @@ source $ZSH/oh-my-zsh.sh
 #  prompt_segment blue black '%c'
 #}
 
+#Setup: Docker Completion for Zsh
+fpath=(~/.zsh/completion $fpath)
+autoload -Uz compinit && compinit -i
+
+#Setup: command prompt for agnoster theme - remove full path
 prompt_context() {}
+
+#Setup: pyenv
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+fi

@@ -21,6 +21,18 @@ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | 
 chsh -s /usr/local/bin/zsh
 ```
 
+## Setup Oh-My-Zsh Completions
+
+[https://github.com/zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
+
+Clone:
+`git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions`
+Enable in .zshrc
+````
+plugins=(… zsh-completions)
+autoload -U compinit && compinit
+```
+
 ### Install Solorized for iTerm2
 
 [http://ethanschoonover.com/solarized](http://ethanschoonover.com/solarized)
@@ -93,3 +105,12 @@ git config --global color.diff.whitespace "red reverse"
 ### Install ChefDK
 
 [https://downloads.chef.io/chefdk](https://downloads.chef.io/chefdk)
+
+### Install Docker Command Completion
+
+[https://docs.docker.com/compose/completion/#install-command-completion](https://docs.docker.com/compose/completion/#install-command-completion)
+
+``
+mkdir -p ~/.zsh/completion
+$ curl -L https://raw.githubusercontent.com/docker/compose/1.21.2/contrib/completion/zsh/_docker-compose > ~/.zsh/completion/_docker-compose
+```
