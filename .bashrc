@@ -3,6 +3,11 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
+#Setup: GoLang environment
+export GOPATH=$HOME/develop/go-workspace
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOPATH/bin
+
 ## Setup: rbenv
 if [ -f /usr/local/bin/rbenv ]; then
   eval "$(rbenv init -)"
