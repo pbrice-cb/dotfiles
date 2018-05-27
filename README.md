@@ -23,6 +23,7 @@ Installs...
 - "diff-so-fancy"
 - "evernote"
 - "git"
+- "golang"
 - "iterm2"
 - "jq"
 - "keepassx"
@@ -53,7 +54,7 @@ Installs...
 
 [https://github.com/robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-```
+``` bash
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 chsh -s /usr/local/bin/zsh
 ```
@@ -88,7 +89,7 @@ Change Font to iTerm2 profile
 
 Check: [https://www.ruby-lang.org/en/documentation/installation/](https://www.ruby-lang.org/en/documentation/installation/)
 
-```
+``` bash
 rbenv versions
 system (set by /Users/paulbrice/.rbenv/version)
 
@@ -100,15 +101,13 @@ rbenv shell 2.5.1 (or latest)
 
 Check rbenv
 
-```
-curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
-```
+`curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash`
 
 ### Setup Diff-So-Fancy
 
 [https://github.com/so-fancy/diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 
-```
+``` bash
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 git config --global color.diff-highlight.oldNormal    "red bold"
 git config --global color.diff-highlight.oldHighlight "red bold 52"
@@ -123,9 +122,14 @@ git config --global color.diff.new        "green bold"
 git config --global color.diff.whitespace "red reverse"
 ```
 
-### Install Gems
+### Install Ruby Gem: bundler
 
 `gem install bundler`
+
+### Setup GoLang env
+
+Create directory structure: `mkdir -p ~/Code/go/{pkg,src,bin}`
+
 
 ### Install ChefDK
 
@@ -135,7 +139,7 @@ git config --global color.diff.whitespace "red reverse"
 
 [https://docs.docker.com/compose/completion/#install-command-completion](https://docs.docker.com/compose/completion/#install-command-completion)
 
-``
+``` bash
 mkdir -p ~/.zsh/completion
 $ curl -L https://raw.githubusercontent.com/docker/compose/1.21.2/contrib/completion/zsh/_docker-compose > ~/.zsh/completion/_docker-compose
 ```
