@@ -10,6 +10,10 @@
 
 ## Setup Brew with Bundle
 
+`brew bundle`
+
+Installs...
+
 - "homebrew/core"
 - "homebrew/bundle"
 - "caskroom/cask"
@@ -44,8 +48,6 @@
 - "wget"
 - "zsh"
 - "zsh-completions"
-
-`brew bundle`
 
 ## Setup Oh-My-Zsh
 
