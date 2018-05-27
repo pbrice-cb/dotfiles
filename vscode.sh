@@ -9,3 +9,4 @@ code --install-extension aws-scripting-guy.cform
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension DotJoshJohnson.xml
 code --install-extension mohsen1.prettify-json
+code --install-extension ms-vscode.Go
