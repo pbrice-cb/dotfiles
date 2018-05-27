@@ -100,6 +100,10 @@ source $ZSH/oh-my-zsh.sh
 #  prompt_segment blue black '%c'
 #}
 
+#Setup: GoLang environment
+export GOPATH=$HOME/develop/go-workspace # don't forget to change your path correctly!
+export GOROOT=/usr/local/go
+
 #Setup: Docker Completion for Zsh
 fpath=(~/.zsh/completion $fpath)
 autoload -Uz compinit && compinit -i
@@ -112,3 +116,6 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
   eval "$(pyenv virtualenv-init -)"
 fi
+
+#Setup rbenv Shims in path
+eval "$(rbenv init -)"
