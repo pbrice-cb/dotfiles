@@ -8,7 +8,42 @@
 
 [https://brew.sh](https://brew.sh/)
 
-Execute Brew with Bundle
+## Setup Brew with Bundle
+
+- "homebrew/core"
+- "homebrew/bundle"
+- "caskroom/cask"
+- "awscli"
+- "bash"
+- "bash-completion"
+- "diff-so-fancy"
+- "evernote"
+- "git"
+- "iterm2"
+- "jq"
+- "keepassx"
+- "kubernetes-cli"
+- "openssh"
+- "packer"
+- "pyenv"
+- "pyenv-virtualenv"
+- "python"
+- "pv"
+- "rbenv"
+- "the_silver_searcher"
+- "tflint"
+- "tree"
+- "tfenv"
+- "terraform-docs"
+- "vagrant-completion"
+- "vagrant"
+- "vagrant-manager"
+- "virtualbox"
+- "vim"
+- "visual-studio-code"
+- "wget"
+- "zsh"
+- "zsh-completions"
 
 `brew bundle`
 
@@ -19,18 +54,6 @@ Execute Brew with Bundle
 ```
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 chsh -s /usr/local/bin/zsh
-```
-
-## Setup Oh-My-Zsh Completions
-
-[https://github.com/zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions)
-
-Clone:
-`git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugins/zsh-completions`
-Enable in .zshrc
-````
-plugins=(… zsh-completions)
-autoload -U compinit && compinit
 ```
 
 ### Install Solorized for iTerm2
