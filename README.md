@@ -128,7 +128,7 @@ git config --global color.diff.whitespace "red reverse"
 
 ### Setup GoLang env
 
-Create directory structure: `mkdir -p ~/Code/go/{pkg,src,bin}`
+Create directory structure: `mkdir -p ~/develop/go-workspace/{pkg,src,bin}`
 
 
 ### Install ChefDK
