@@ -10,7 +10,7 @@
 
 ## Setup Brew with Bundle
 
-`brew bundle`
+`brew bundle install`
 
 Installs...
 
