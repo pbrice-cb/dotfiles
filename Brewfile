@@ -1,7 +1,10 @@
+cask_args appdir: "/Applications"
+
 tap "homebrew/core"
 tap "homebrew/bundle"
-tap "caskroom/cask"
+
 brew "awscli"
+brew "aws-shell"
 brew "bash"
 brew "bash-completion"
 brew "diff-so-fancy"
@@ -31,5 +34,3 @@ cask "visual-studio-code"
 brew "wget"
 brew "zsh"
 brew "zsh-completions"
-"update"
-"doctor"
