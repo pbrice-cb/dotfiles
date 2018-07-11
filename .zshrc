@@ -102,7 +102,6 @@ source $ZSH/oh-my-zsh.sh
 
 #Setup: GoLang environment
 export GOPATH=$HOME/develop/go-workspace # don't forget to change your path correctly!
-export GOROOT=/usr/local/go
 
 #Setup: Docker Completion for Zsh
 fpath=(~/.zsh/completion $fpath)
