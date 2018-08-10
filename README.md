@@ -24,43 +24,7 @@ curl -O https://raw.githubusercontent.com/paulbrice/dotfiles/master/README.md
 
 `brew bundle install`
 
-Installs...
-
-- "homebrew/core"
-- "homebrew/bundle"
-- "caskroom/cask"
-- "awscli"
-- "bash"
-- "bash-completion"
-- "diff-so-fancy"
-- "evernote"
-- "git"
-- "golang"
-- "iterm2"
-- "jq"
-- "keepassx"
-- "kubernetes-cli"
-- "openssh"
-- "packer"
-- "pyenv"
-- "pyenv-virtualenv"
-- "python"
-- "pv"
-- "rbenv"
-- "the_silver_searcher"
-- "tflint"
-- "tree"
-- "tfenv"
-- "terraform-docs"
-- "vagrant-completion"
-- "vagrant"
-- "vagrant-manager"
-- "virtualbox"
-- "vim"
-- "visual-studio-code"
-- "wget"
-- "zsh"
-- "zsh-completions"
+See Brewfile for installation list.
 
 ## Setup Oh-My-Zsh
 
