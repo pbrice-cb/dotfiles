@@ -1,5 +1,9 @@
 # dotfiles
 
+### Vim-Bootstrap
+
+[http://vim-bootstrap.com/](http://vim-bootstrap.com/)
+
 ### Pull down dot files
 
 ```
