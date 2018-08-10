@@ -1,8 +1,16 @@
 # dotfiles
 
-### Clone repo into root of local profile.
+### Pull down dot files
 
-`~/git clone git@github.com:paulbrice/dotfiles.git`
+```
+cd ~
+curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.bash_profile
+curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.bashrc
+curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.gemrc
+curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/.zshrc
+curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/Brewfile
+curl -O https://raw.githubusercontent.com/nicolashery/mac-dev-setup/master/README.md
+```
 
 ### Install Brew
 
