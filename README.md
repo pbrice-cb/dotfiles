@@ -12,6 +12,7 @@ curl -O https://raw.githubusercontent.com/paulbrice/dotfiles/master/.bash_profil
 curl -O https://raw.githubusercontent.com/paulbrice/dotfiles/master/.bashrc
 curl -O https://raw.githubusercontent.com/paulbrice/dotfiles/master/.gemrc
 curl -O https://raw.githubusercontent.com/paulbrice/dotfiles/master/.zshrc
+curl -O https://raw.githubusercontent.com/paulbrice/dotfiles/master/.vimrc
 curl -O https://raw.githubusercontent.com/paulbrice/dotfiles/master/Brewfile
 curl -O https://raw.githubusercontent.com/paulbrice/dotfiles/master/README.md
 ```
@@ -155,3 +156,20 @@ Create directory structure: `mkdir -p ~/develop/go-workspace/{pkg,src,bin}`
 mkdir -p ~/.zsh/completion
 $ curl -L https://raw.githubusercontent.com/docker/compose/1.21.2/contrib/completion/zsh/_docker-compose > ~/.zsh/completion/_docker-compose
 ```
+
+### NeoVim Setup
+
+symlink .vimrc to init.vim
+
+`ln -s ~/.vimrc ~/.config/nvim/init.vim`
+
+vim-plug
+
+[https://github.com/junegunn/vim-plug](https://github.com/junegunn/vim-plug)
+```
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+plugins
+[https://github.com/ncm2/ncm2](https://github.com/ncm2/ncm2)

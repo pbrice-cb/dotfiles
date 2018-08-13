@@ -96,6 +96,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# vim alias to neovim
+alias vim="nvim"
+
 #prompt_dir() {
 #  prompt_segment blue black '%c'
 #}
